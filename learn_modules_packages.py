@@ -79,9 +79,47 @@ import webbrowser as wb
 # wb.open_new_tab("https://www.hackerrank.com/challenges/python-arithmetic-operators/problem?isFullScreen=true")
 
 
+# 28/04/26
+#pygame -> package
+# import pygame
+# pygame.init()
+# pygame.display.set_caption("Samsung S25")
+# ps = pygame.display.set_mode((700,500))
+# ps1 = pygame.image.load(r"C:\Users\Livewire\Pictures\mobile.jpg")
+# ps.blit(ps1,(20,50))
+# pygame.display.update()
+# time.sleep(3)
+# pygame.quit()
 
+#pillow -> PIL
 
+from PIL import Image as im
 
+# img = im.open(r"C:\Users\Livewire\Pictures\mobile.jpg")
+# img = img.resize((300,200))
+# img.show()
+
+#numpy
+# import numpy as np
+# ar1 = np.array([1,2,3,4,5])
+# print(ar1)
+# print(type(ar1))
+# print(np.shape(ar1))
+# print(np.power(ar1,3))
+# print(np.max(ar1))
+# print(np.min(ar1))
+# print(np.average(ar1))
+# print(np.median(ar1))
+# print(ar1[3])
+# ar2 = np.array([10,20,30,40,50])
+# print(ar1+ar2)
+# print(ar2-ar1)
+# 
+# # 2d-array
+# md = np.array([[1,2],[4,5],[7,8]])
+# print(md)
+# print(np.shape(md))
+# print(md[1])
 
 
 
